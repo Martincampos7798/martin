@@ -1,0 +1,81 @@
+
+
+#contenedor {
+    background-color: white;
+    border: 10px black solid;
+    width: 1000px;
+    height: 450px;
+    display: inline-block;
+}
+
+
+.flex {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.blanco {
+    background-color: yellow;
+    width: 10px;
+    height: 55px;
+    position: relative;
+    top:0px; left: 201px;
+
+}
+
+.pr {
+    background-color: blue;
+    width: 20px;
+    height: 215px;
+    position: relative;
+    top: 0px; left: 210px;
+
+}
+
+.rojo {
+    background-color: red;
+    width: 760px;
+    height: 200px;
+    position: relative;
+    top: 0px; left: 30px;
+}
+
+.flex_azul{
+    background-color: blue;
+    width: 1000px;
+    height: 20px;
+    position: absolute;
+    top: 292px;
+    margin-bottom: 0px;
+}
+
+.rojo-grande{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 35px;
+    
+
+}
+
+
+.rojo_grande {
+    background-color: red;
+    width: 760px;
+    height: 200px;
+    position: relative;
+    top: 35px; left: 240px;
+}
+
+.azul2 {
+   background-color: blue;
+   width: 20px;
+   height: 235px;
+   position: absolute;
+   top: 0px; left: 210px;
+}
+
+
+
