@@ -1,43 +1,81 @@
-body {
-    background-color: pink;
+
+
+#contenedor {
+    background-color: white;
+    border: 10px black solid;
+    width: 1000px;
+    height: 450px;
+    display: inline-block;
 }
 
-#navbar-pinterest {
-    display: inline-flex;
-    flex-wrap: wrap;
-    top: 0px;
-    position: sticky;
+
+.flex {
+    background-color: red;
+    width: 200px;
+    height: 200px;
 }
 
-.finder {
-    width: 85vw;
-    border-radius: 25px;
+.blanco {
+    background-color: yellow;
+    width: 10px;
+    height: 55px;
+    position: relative;
+    top:0px; left: 201px;
+
 }
 
-#brujula{
-    padding: 20px;
+.pr {
+    background-color: blue;
+    width: 20px;
+    height: 215px;
+    position: relative;
+    top: 0px; left: 210px;
+
+}
+
+.rojo {
+    background-color: red;
+    width: 760px;
+    height: 200px;
+    position: relative;
+    top: 0px; left: 30px;
+}
+
+.flex_azul{
+    background-color: blue;
+    width: 1000px;
+    height: 20px;
+    position: absolute;
+    top: 292px;
+    margin-bottom: 0px;
+}
+
+.rojo-grande{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 35px;
     
-}
-#content{
-display: grid;
-grid-template-columns: auto auto auto auto;
-
 
 }
 
 
+.rojo_grande {
+    background-color: red;
+    width: 760px;
+    height: 200px;
+    position: relative;
+    top: 35px; left: 240px;
+}
 
-
-
-.card-image:hover {
-    background-color: aquamarine;   
-   
-
+.azul2 {
+   background-color: blue;
+   width: 20px;
+   height: 235px;
+   position: absolute;
+   top: 0px; left: 210px;
 }
 
 
-.card-image{
-    background-image: ;
-    
 
-}
