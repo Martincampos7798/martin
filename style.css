@@ -1,81 +1,146 @@
+*{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.GMAIL{
+    display: inline-block;    
+    float: right;
+    padding-right: 60px;
+    font-size: 25px;
 
 
-#contenedor {
-    background-color: white;
-    border: 10px black solid;
-    width: 1000px;
-    height: 450px;
+}
+
+.IMAGES {
+    display: inline-block;    
+    float: right;
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+
+
+
+.caja_busqueda{
+    display: flex;
     display: inline-block;
-}
-
-
-.flex {
-    background-color: red;
-    width: 200px;
-    height: 200px;
-}
-
-.blanco {
-    background-color: yellow;
-    width: 10px;
-    height: 55px;
-    position: relative;
-    top:0px; left: 201px;
-
-}
-
-.pr {
-    background-color: blue;
-    width: 20px;
-    height: 215px;
-    position: relative;
-    top: 0px; left: 210px;
-
-}
-
-.rojo {
-    background-color: red;
-    width: 760px;
-    height: 200px;
-    position: relative;
-    top: 0px; left: 30px;
-}
-
-.flex_azul{
-    background-color: blue;
-    width: 1000px;
-    height: 20px;
-    position: absolute;
-    top: 292px;
-    margin-bottom: 0px;
-}
-
-.rojo-grande{
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    margin-top: 35px;
+    border-radius: 30px;
+    width: 500px;
+    background-color:white;
+    border: white 5px solid;
+    padding: 20px 10px;
     
+}
 
+.search {
+    display: inline-block;
+    background-color: white;
+    padding: 10px 10px;
+    width: 150px;
+    border: 1px red solid;
+    color: black;
+    
+    
+}
+.search:hover{
+    background-color: yellow;
 }
 
 
-.rojo_grande {
-    background-color: red;
-    width: 760px;
-    height: 200px;
-    position: relative;
-    top: 35px; left: 240px;
+.suerte {
+    display: inline-block;
+    background-color: white;
+    padding: 10px 10px;
+    width: 150px;
+    border: 1px red solid;
+    color: black;
+
+}
+h2{
+    padding: 15px 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
 }
 
-.azul2 {
-   background-color: blue;
-   width: 20px;
-   height: 235px;
-   position: absolute;
-   top: 0px; left: 210px;
+h3{
+    padding: 15px 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background-color: rgb(60, 59, 59);
+    margin-top: 270px;
 }
 
+.pie_pagina {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-rows: auto;
+  margin-top: 5px;
+ 
 
+}
 
+.sobregoogle{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+.Publicidad {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white
+}
+
+.Negocios {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.como_funciona {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+   
+
+}
+
+.Privacidad {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.Condiciones {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+ 
+}
+
+.Preferencias {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
